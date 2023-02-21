@@ -1,0 +1,16 @@
+La struttura degli alberi non può essere rappresentata su una line, perché ha una struttura bidimensionale.
+Ogni parte dell'albero ha 2 next uno destro e uno sinistro.
+La head negli alberi è chiamata root (radice).
+
+Noi useremo gli alberi bianari, perché ogni nodo ha due possbili putatori.
+Tutti i nodi hanno un genitore
+
+ogni nodo ha un campo chiave: non devono esistere 2 nodi con la stessa chiave, un nodo deve avere il figlio destro deve avere una chiave minore del padre, mentre quello sinistro deve essere maggiore.
+
+L'altezza dell'albero è la distanza che c'è dalla foglia più lontana fino alla root.
+
+ALBERO RICERCA BINARIA BILANCIATO:
+N°nodi, l'albero è bilanciato sse l'altezza (H) è uguale al log2(N) e arrotondarlo per difetto.
+floor(log2(N)).
+
+Gli alberi a ricerca banaria sono chiamati Binary Tree --> B-tree
